@@ -7,6 +7,7 @@
     "torrentjson": "./torrentjson.js"
   },
   "scripts": {
+    "build":"bun build --compile --outfile=torrentjson ./torrentjson.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
