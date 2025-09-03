@@ -1,0 +1,33 @@
+{
+  "name": "torrentjson",
+  "version": "1.0.0",
+  "description": "An utility for lossless conversion between .torrent files and JSON format",
+  "main": "torrentjson.js",
+  "bin": {
+    "torrentjson": "./torrentjson.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "torrent",
+    "bencode",
+    "json",
+    "converter",
+    "bittorrent",
+    "magnet"
+  ],
+  "author": "bobwen-dev (https://github.com/bobwen-dev)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobwen-dev/torrentjson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bobwen-dev/torrentjson/issues"
+  },
+  "homepage": "https://github.com/bobwen-dev/torrentjson",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
